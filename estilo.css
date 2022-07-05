@@ -1,0 +1,99 @@
+/* Resetando o body */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Formatando a logo principal */
+.logo {
+    background-color: #4710c1;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 22px;
+}
+
+/* Formatando as divs dentro das seções */
+.secao-conteudo {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.logo span {
+    margin: 0 30px;
+}
+
+/* Formatação dos links da logo */
+.logo a {
+    text-decoration: none;
+    color: #4710c1;
+    background-color: #ffffff;
+    padding: 8px 5px;
+    border-radius: 15px;
+    margin: 0 6px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.capa img {
+    width: 100%;
+}
+
+/* Seção onde vão ficar os conteúdos */
+.secao-geral {
+    width: 100%;
+    padding: 20px 0;
+}
+
+p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.disponibilidade img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.galeria {
+    max-width: 1024px;
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+
+.galeria img {
+    width: 315px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.assista {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.assista a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4710c1;
+    color: #ffffff;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.rodape {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background-color: #4710c1;
+    color: #ffffff;
+    padding: 12px 0;
+}
