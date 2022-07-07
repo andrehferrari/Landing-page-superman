@@ -11,6 +11,7 @@ body {
     color: #ffffff;
     padding: 20px 0;
     font-size: 22px;
+    position: fixed;
 }
 
 /* Formatando as divs dentro das seções */
